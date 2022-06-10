@@ -1,0 +1,588 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*აქ ვიმუშავე ჰედერზე*/
+header{
+    background-color: #1f252df5;
+    width: 100%;
+    padding: 10px 100px;
+    height: 90px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+header h1{
+    width: 200px;
+    height: 100%;
+    background-image: url(../img/rokologo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    float: left;
+    margin-left: 225px;
+    margin-top: 12px;
+}
+h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+} 
+
+
+header nav ul li{
+    float: left;
+    margin-right: 25px;
+    color: aliceblue;
+    
+}
+header nav ul{
+    margin-left: 500px;
+    padding-top: 26px;
+    
+}
+header nav ul li a{
+    color: #ffff;
+    padding: 5px 10px;
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a::after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ff3c78;
+}
+nav a:hover::after{
+    width: 100%;
+}
+.profileman{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 15px;
+    left: 1250px;
+}
+.profilewoman{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 15px;
+    left: 1350px;
+}
+
+
+/*დავასრულე ჰედერთან მუშაობა*/
+body{
+    background-color: #11171e;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.bebo{
+    width: 1400px;
+    height: 3200px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+h2{
+    color: rgb(0, 2, 4);
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.xazi{
+    height: 3px;
+    width: 240px;
+    background-color: #ff3c78;
+    margin-left: 58px;
+}
+.xazi2{
+    height: 3px;
+    width: 264px;
+    background-color: #ff3c78;
+    margin-left: 58px;
+}
+.xazi3{
+    height: 3px;
+    width: 265px;
+    background-color: #ff3c78;
+    margin-left: 58px;
+}
+.xazi4{
+    height: 3px;
+    width: 264px;
+    background-color: #ff3c78;
+    margin-left: 58px;
+}
+.xazi5{
+    height: 3px;
+    width: 235px;
+    background-color: #ff3c78;
+    margin-left: 58px;
+}
+h4{
+    color: rgb(0, 2, 4);
+    padding-left: 1300px;
+    cursor: pointer;
+}
+h4 a{
+    color: black;
+}
+.container{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 25px 20px;
+    display: flex;
+}
+div img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 1s;
+}
+.project{
+    width: 100%;
+    height: 250px;
+    margin-left: 35px;
+}
+.poster{
+    width: 200px;
+    height: 100%;
+}
+
+.davibeni{
+    position: relative;
+    transition: 1s;
+    
+}
+.inside{
+    position: absolute;
+    z-index: 5;
+    left: 43%;
+    top: 0;
+    text-transform: uppercase;
+    background-color: #ff3c78;
+    color: rgb(249, 241, 241);
+    padding: 8px 15px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 0 0 6px 6px;
+    transform: translateX(-50%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+/* div p{
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 100px;
+    cursor: pointer;
+} */
+
+
+/*Names*/
+.name{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.name2{
+    margin-left: 72px;
+    margin-top: 10px;
+}
+.name3{
+    margin-left: 67px;
+    margin-top: 10px;
+}
+.name4{
+    margin-left: 28px;
+    margin-top: 10px;
+}
+.name5{
+    margin-left: 32px;
+    margin-top: 10px;
+}
+.serialebi{
+    margin-top: 80px;
+}
+.animaciebi{
+    margin-top: 80px;
+}
+.animeebi{
+    margin-top: 80px;
+}
+.sname1{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.sname3{
+    margin-left: 78px;
+    margin-top: 10px;
+}
+.sname4{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.sname5{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.aname{
+    margin-left: 48px;
+    margin-top: 10px;
+}
+.davibeni:hover{
+    transform: scale(1.1);
+}
+.slidertest{
+    margin-top: 80px;
+}
+.containerblack{
+    height: 370px;
+    width: 100%;
+    background-color: #1f252df5;
+    margin-top: 10px;
+    padding: 25px 20px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.slidername{
+    color: #ffff;
+    margin-left: 65px;
+    margin-top: 10px;
+
+}
+.slidername2{
+    color: #ffff;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.slidename3{
+    color: #ffff;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.slidename4{
+    color: #ffff;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.slidename5{
+    color: #ffff;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+/* slider */
+
+.wrapper{
+    width: 100%;
+}
+.slides-container{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-color: #1f252df5;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.slide-image{
+    height: 550px;
+    width: 1100px;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    
+}
+.slide-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+
+.next-btn,
+.prev-btn{
+    background: #ff3c78;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    z-index: 100;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.next-btn:hover,
+.prev-btn:hover{
+    background: #fefefe;
+}
+
+
+.prev-btn{
+    left: 310px;
+    top: 425px;
+    border-radius: 10px;
+    
+    
+}
+.next-btn{
+    right: 310px;
+    top: 425px;
+    border-radius: 10px;
+}
+
+/* navigation dots */
+
+.navigation-dots{
+    display: flex;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 0;
+    position: absolute;
+    top: 740px;
+    left: 910px;
+    
+}
+.single-dot{
+    background: #ff3c78;
+    height: 16px;
+    width: 16px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.single-dot.active{
+    background: #eee;
+}
+.charcho{
+    height: 600px;
+    width: 1150px;
+    position: absolute;
+    border-radius: 50px;
+    /* background-color: #04AA6D; */
+    top: 45px;
+    left: 125px;
+    border: #ff3c78 10px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ჩატი შემოვიტანე */
+.open-button {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 220px;
+    border-radius: 10px;
+    
+  }
+  
+ 
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+
+  .form-container .cancel {
+    background-color: red;
+  }
+
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  form{
+      align-items: center;
+      justify-content: center;
+  }
+  
+
+
+  footer{
+    background-color: #1f252df5;
+    width: 100%;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .facebook{
+      width: 50px;
+      height: 50px;
+      padding-top: 20px;
+      margin-left: 20px;
+  }
+  .steam{
+    width: 60px;
+    height: 60px;
+    padding-top: 18px;
+    margin-left: 50px;
+    
+  }
+  .containerfooter{
+      width: 200px;
+      display: flex;
+  }
+
+
+
+  .copyright{
+    width: 30px;
+    height: 30px;
+    top: 3410px;
+    left: 30px;
+    position: absolute;
+  }
+  footer p{
+      color: #eee;
+      margin-left: 880px;
+  }
+ 
+
+
+  @media (max-width: 1428px) {
+      .bebo{
+          width: 98%;
+
+      }
+      .container{
+        width: 98%;
+      }
+      header{
+          width: 98%;
+      }
+  }
+  @media (max-width: 1428px) {
+      .project{
+          margin: 0 auto;
+          width: 100%;
+      }
+      .profileman{
+        display: none;
+    }
+    .profilewoman{
+        display: none;
+    }
+  }
+
+
+@media (max-width: 1316px) {
+    .wrapper{
+        display: none;
+    }
+    header h1{
+        margin-left: 20px;
+    }
+    header nav ul{
+        margin-left: 300px;
+    }
+    
+    .profileman{
+        display: none;
+    }
+    .profilewoman{
+        display: none;
+    }
+    .container{
+        flex-wrap: wrap;
+        height: 700px;
+        gap: 10px;
+    }
+    .project{
+        flex-grow: 1;
+        flex: 1 1 80px;
+        margin-bottom: 20px;
+    }
+    .inside{
+        display: none;
+    }
+}
